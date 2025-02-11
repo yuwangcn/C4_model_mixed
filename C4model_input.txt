@@ -1,0 +1,2 @@
+CO2	Light	Pathway_type
+400	2000	0

@@ -1,0 +1,22 @@
+The C4 mixed pathway model users guide 
+
+1.To use this model, first copy all the files to a directory, then run MATLAB and set the working directory to the directory where the codes are saved. 
+
+2."C4Ini.m" defines initial values and parameters.
+
+3."C4Vel.m" defines rate equations.
+
+4."C4MB.m" defines differential equations
+
+5.Run "C4Drive.m" to simulate the photosynthesis and metabolite concentration changes with time.
+
+6.Run "C4DriveAI.m" to simulate the steady-state light curves.
+
+7.Use the parameter "Pathway_type" in ‘C4model_input。txt’to change different mixtured models.
+  0 normal NADP-ME type 
+  1 Asp+Mal transport and ME type 
+  2 Asp+Mal and PCK type 
+  3 Asp+Mal and PCK+ME type 
+  4 Asp and PCK only type
+
+
